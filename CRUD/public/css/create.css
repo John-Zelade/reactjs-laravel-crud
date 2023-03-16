@@ -1,0 +1,41 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading a{
+    text-decoration: none;
+}
+.list-btn {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #37accd;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .list-btn:hover {
+    background: #cee3f9;
+  }
+  
+  .list-btn > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  .list-btn:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .list-btn:active {
+    transform: scale(0.95);
+  }
+  
+  
+  
