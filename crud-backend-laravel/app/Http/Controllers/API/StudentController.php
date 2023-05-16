@@ -36,7 +36,7 @@ class StudentController extends Controller
     $data = Student::find($id);
     $data->student_name = $request-> stud_name;
     $data->student_year_level = $request-> stud_yr_lvl;
-    $data->student_section = $request ->stud_sec;
+    $data->student_section = $request ->stud_sec; 
     $data->update();
 
     return response()->json([
